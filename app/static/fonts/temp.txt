@@ -1,0 +1,1 @@
+cp /tmp/fira_code/ttf/FiraCode-Regular.ttf /app/static/fonts/

@@ -1,0 +1,39 @@
+/* Main styles */
+body {
+    background-color: #f8f9fa;
+}
+
+.CodeMirror {
+    border: 1px solid #dee2e6;
+    height: auto;
+    margin-bottom: 1rem;
+    font-family: 'Fira Code', 'Consolas', 'Monaco', 'Andale Mono', monospace;
+}
+
+.CodeMirror-scroll {
+    min-height: 300px;
+}
+
+#previewImage {
+    max-width: 100%;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.card {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-md-6 {
+        margin-bottom: 2rem;
+    }
+}
