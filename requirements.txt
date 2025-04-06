@@ -1,0 +1,7 @@
+Flask
+Pillow
+pydantic
+pydantic_settings
+Pygments
+Werkzeug
+gunicorn
